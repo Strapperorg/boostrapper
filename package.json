@@ -3,11 +3,11 @@
   "displayName": "Bootstrapper",
   "description": "A plugin for VS Code flavored editors that allows you to create a project from blueprint",
   "version": "0.2.0",
-  "publisher": "topdown",
+  "publisher": "Strapperorg",
   "icon": "icon.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/topdown/bootstrapper"
+    "url": "https://github.com/Strapperorg/boostrapper"
   },
   "engines": {
     "vscode": "^1.96.0"
@@ -105,7 +105,7 @@
         },
         "bootstrapper.communityRepository": {
           "type": "string",
-          "default": "topdown/Bootstrapper-Blueprints",
+          "default": "Strapperorg/blueprints",
           "description": "GitHub repository for community blueprints (format: owner/repo)"
         }
       }

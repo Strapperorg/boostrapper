@@ -15,7 +15,7 @@ All notable changes to the "bootstrapper" extension will be documented in this f
 - **Auto-tagging**: Community blueprints automatically tagged for easy identification
 
 ### Features
-- **Community Repository Access**: Browse blueprints from `topdown/Bootstrapper-Blueprints` by default
+- **Community Repository Access**: Browse blueprints from `Strapperorg/blueprints` by default
 - **Dual Format Support**: Support for both legacy JSON files and new folder-based structure (blueprint.json + README.md)
 - **Rich Documentation**: In-app README viewer with download integration
 - **Seamless Integration**: Community blueprints work exactly like local blueprints once downloaded

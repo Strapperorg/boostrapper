@@ -30,7 +30,9 @@ The extension now supports community blueprints through a GitHub repository. You
 
 ### Community Repository
 
-By default, the extension uses the [topdown/Bootstrapper-Blueprints](https://github.com/topdown/Bootstrapper-Blueprints) repository for community blueprints. You can customize this in the settings.
+By default, the extension uses the [Blueprints](https://github.com/Strapperorg/blueprints) repository for community blueprints. You can customize this in the settings.
+
+You can also explore blueprints through our searchable website at [strapper.org](https://strapper.org/).
 
 Community blueprints are automatically tagged with the "community" tag when downloaded.
 
@@ -97,7 +99,7 @@ Blueprints are stored as JSON files with the following structure:
 
 To contribute blueprints to the community repository:
 
-1. Fork the [Bootstrapper-Blueprints](https://github.com/topdown/Bootstrapper-Blueprints) repository
+1. Fork the [Blueprints](https://github.com/Strapperorg/blueprints) repository
 2. Create a folder for your blueprint with both files:
    - `blueprint.json` - The blueprint definition
    - `README.md` - Documentation, usage instructions, and examples
@@ -107,7 +109,7 @@ To contribute blueprints to the community repository:
 ### Recommended Repository Structure
 
 ```
-Bootstrapper-Blueprints/
+Strapperorg/blueprints/
 ├── react-typescript-app/
 │   ├── blueprint.json
 │   └── README.md

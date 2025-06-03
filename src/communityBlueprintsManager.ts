@@ -41,7 +41,7 @@ export class CommunityBlueprintsManager {
      */
     private getRepositoryInfo(): { owner: string; repo: string } {
         const config = vscode.workspace.getConfiguration('bootstrapper');
-        const repository = config.get<string>('communityRepository', 'topdown/Bootstrapper-Blueprints');
+        const repository = config.get<string>('communityRepository', 'Strapperorg/blueprints');
         const [owner, repo] = repository.split('/');
         
         if (!owner || !repo) {
@@ -59,7 +59,7 @@ export class CommunityBlueprintsManager {
             console.log('CommunityBlueprintsManager: Starting to fetch community blueprints...');
             vscode.window.showInformationMessage('DEBUG: Starting to fetch community blueprints...');
             const { owner, repo } = this.getRepositoryInfo();
-            const url = `${this.API_BASE}/repos/${owner}/${repo}/contents/blueprints`;
+            const url = `${this.API_BASE}/repos/${owner}/${repo}/contents`;
             console.log('CommunityBlueprintsManager: Fetching from URL:', url);
             
             const contents = await this.fetchGitHubApi(url) as GitHubContent[];
