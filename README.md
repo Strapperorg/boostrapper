@@ -4,6 +4,8 @@ A VS Code extension that allows you to create projects from blueprints and save 
 
 It will work in all VSCode flavored editors. Cursor, WindSurf, etc...
 
+You can see current blueprints and documentation on [strapper.org](https://strapper.org/)
+
 ## Features
 
 - **Create Projects from Blueprints**: Generate new projects using existing blueprint templates
@@ -121,7 +123,19 @@ Strapperorg/blueprints/
 
 ### README Template for Blueprints
 
-Each blueprint should include a README.md with:
+Each blueprint should include a `README.md` with:
+
+The meta at the very top of the file.
+
+The meta at the top is very important for the Blueprints webpage.
+__Example:__
+```html
+<!--
+title: Static Website Starter
+description: A simple, clean starter template for static websites with HTML, CSS, and JavaScript
+tags: html, css, javascript, static, website, starter
+-->
+```
 
 - **Description**: What the blueprint creates
 - **Prerequisites**: Required tools, extensions, or dependencies
