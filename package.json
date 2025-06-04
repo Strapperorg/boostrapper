@@ -14,7 +14,12 @@
     "vscode": "^1.96.0"
   },
   "categories": [
-    "Other"
+    "Tools",
+    "Snippets",
+    "Coding",
+    "Scaffolding",
+    "Blueprints",
+    "Boilerplates"
   ],
   "activationEvents": [
     "onStartupFinished",
